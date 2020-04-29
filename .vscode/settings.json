@@ -1,0 +1,11 @@
+{
+	"explorer.sortOrder": "type",
+	"markdown.styles": ["./docs/theme/preview.css"],
+	"microjam.markdownItPlugins": {
+		"markdown-it-texmath": {
+			"engine": "katex",
+            "delimiters": "dollars",
+            "macros": {"\\RR": "\\mathbb{R}"}
+		}
+	}
+}

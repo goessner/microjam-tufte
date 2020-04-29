@@ -1,0 +1,46 @@
+<!doctype html>
+<html class="theme-light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1,user-scalable=no">
+<meta name="description" content="About">
+
+<meta name="keywords" content="">
+<title>About</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.18.1/styles/github-gist.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markdown-it-texmath/css/texmath.css">
+<link rel="stylesheet" href="./theme/styles.css">
+</head>
+<body>
+<header>
+  <a href="./index.html" class="left">microJam - Tufte Style</a>
+  <a href="./about.html" class="right">About</a>
+</header>
+<main>
+<h1 id="about-this-style">About this Style</h1>
+<h2 id="edward-tufte">Edward Tufte</h2>
+<p>There are a lot informative publications and articles about the work of <a href="https://en.wikipedia.org/wiki/Edward_Tufte" data-href="https://en.wikipedia.org/wiki/Edward_Tufte">Edward Tufte</a>, an American statistician and professor emeritus of political science, statistics, and computer science at Yale University.</p>
+<h2 id="the-web-related-work-of-edward-tufte">The Web Related Work of Edward Tufte</h2>
+<p>There are a few Edward Tufte <a href="https://github.com/edwardtufte" data-href="https://github.com/edwardtufte">GitHub projects</a> and among these we find <a href="https://edwardtufte.github.io/tufte-css/" data-href="https://edwardtufte.github.io/tufte-css/">Tufte CSS</a>.</p>
+<blockquote>
+<p>Tufte CSS provides tools to style web articles using the ideas demonstrated by Edward Tufte’s books and handouts. Tufte’s style is known for its simplicity, extensive use of sidenotes, tight integration of graphics with text, and carefully chosen typography.<br>
+-- <em>Dave Liepmann</em></p>
+</blockquote>
+<p>Adoption of <code>'tufte.css'</code> to μJam was quite easily accomplished thanks to the high quality and readability of the stylesheet – credits go to <a href="https://www.daveliepmann.com/" data-href="https://www.daveliepmann.com/">Dave Liepmann</a>. It was not possible to realize all features of the <em>Tufte Style</em> in the Markdown context due to syntax and time restrictions.</p>
+<p>Especially those remarkable sidenotes and margin notes are missing. Maybe someone would like to help out here.</p>
+<p>You will find the original <code>tufte.css</code> in the <code>/docs/theme/</code> folder, which is only for comparison and might be deleted without harm. In subdirectory <code>/docs/theme/et-book/</code> the font files are located, which are responsible for the noteworthy typography. As with all other μJam themes <code>styles.css</code> is the stylesheet for the <a href="https://goessner.github.io/microjam-tufte/" data-href="https://goessner.github.io/microjam-tufte/">resulting webpages</a> and contains the subset of <em>Tufte Style</em> used. But in contrast to other μJam themes we have another stylesheet <code>preview.css</code> in that folder, which injects  the <em>Tufte Style</em> even into VSCode's native markdown preview.</p>
+<p><em>microJam - Tufte Style</em> is primarily intended for scientific publications and articles. This is the reason, why <em>math</em> is enabled her. But – of course – this template might be used by all others who like it.</p>
+
+</main>
+<footer>
+  <span class="left">&copy; microJam</span>
+  <span class="center">powered by &mu;Jam &amp; <a href="https://code.visualstudio.com/">VSCode</a> &mdash; hosted by <a href="https://github.com/">GitHub</a></span>
+  <span class="right"
+        title="toggle light/dark theme"
+        onclick="document.documentElement.className = document.documentElement.className === 'theme-dark' ? 'theme-light' : 'theme-dark';">
+    &#9788;
+  </span>
+</footer>
+</body>
+</html>

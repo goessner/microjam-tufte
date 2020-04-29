@@ -1,0 +1,7 @@
+{
+  "name": "tufte",
+  "description": "An Edward Tufte theme for microjam",
+  "version": "0.2.0",
+  "author": "sg",
+  "microjam": {}
+}
