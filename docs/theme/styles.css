@@ -42,8 +42,8 @@
 :root {
   --color-footer: #e2f3f3;
   --bgcol-footer: #1f3939;
-  --color-code: #1f3939;
-  --bgcol-code: #f1e9e7;
+  --color-code: #e2f3f3;
+  --bgcol-code: #1f3939;
   --color-shade: #666;
   --color-blockquote-bar: #583733;
 }
