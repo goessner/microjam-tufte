@@ -18,7 +18,7 @@ ${data.math ? `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/d
 <body>
 <header>
   <a href="./index.html" class="left">microJam - Tufte Style</a>
-  <a href="./about.html" class="right">About</a>
+  <span class="right"><a href="./about.html">About</a> | <a href="https://github.com/goessner/microjam-tufte">Source</a></span>
 </header>
 <main>
 ${data.content}

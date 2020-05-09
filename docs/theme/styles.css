@@ -148,11 +148,11 @@ footer  a:hover {
   color: var(--color-hover);
 }
 
-header > a:link, header > a:visited {
+header a:link, header a:visited {
   color: var(--color-header);
   text-decoration: none;
 }
-header > a:hover {
+header a:hover {
   color: var(--color-hover);
 }
 
@@ -192,6 +192,14 @@ hr {
   padding: 0; 
 }
 
+h1>a.plnk,h2>a.plnk,h3>a.plnk {
+  display: none;
+  text-decoration: none;
+  color: inherit;
+}
+h1:hover>a.plnk,h2:hover>a.plnk,h3:hover>a.plnk {
+  display: initial;
+}
 p, blockquote { 
   text-align: justify; 
 }
