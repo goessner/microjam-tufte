@@ -4,7 +4,7 @@
 "date": "2020-04-08",
 "description": "Homepage of microjam demo site",
 "tags": ["microjam","Jamstack","static page","personal","student","academics","math","vector graphics"],
-"category": ["web","math","graphics"]
+"math": true
 ---
 # The Right Triangle
 
